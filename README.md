@@ -2,8 +2,8 @@
 ## World's First Temporary Wallet Technology + Revolutionary Somnia Escrow Platform + WalletX AI Assistance & QR Integration
 
 
-> **🎥 Video Demo**: [youtube.com/walletx](https://youtu.be/iV3gFBM5AlY)  
-> **⚡ Live Demo**: [walletx.software](https://walletx.software)  
+> **🎥 Video Demo**: [youtube.com/walletx](https://youtu.be/)  
+> **⚡ Live Demo**: [somnia-walletx](https://somnia-walletx.vercel.app/)  
 > **🤝 Trustless** | **🌐 Somnia Network** | **📱 Production Ready** | **🤖 AI-Powered**
 
 WalletX is a **game-changing escrow platform** that revolutionizes DeFi with smart contract-powered trustless transactions, temporary disposable wallets, QR code integration, AI assistance, and seamless experience on the Somnia Testnet.
@@ -16,10 +16,10 @@ WalletX is a **game-changing escrow platform** that revolutionizes DeFi with sma
 - **🤖 AI Assistant**: Integrated WalletX AI for real-time user support
 - **📱 Production Ready**: Professional-grade mobile-responsive interface
 
-[![Somnia Network](https://img.shields.io/badge/Somnia-Network-FF6B6B?style=for-the-badge)](https://github.com/chetanck03/Aleph-WalletX)
-[![Live Demo](https://img.shields.io/badge/Live-Demo-FF6B6B?style=for-the-badge)](https://walletx.software)
-[![AI Powered](https://img.shields.io/badge/AI-Powered-00D4AA?style=for-the-badge)](https://github.com/chetanck03/Aleph-WalletX)
-[![QR Integration](https://img.shields.io/badge/QR-Integration-FF6B35?style=for-the-badge)](https://github.com/chetanck03/Aleph-WalletX)
+[![Somnia Network](https://img.shields.io/badge/Somnia-Network-FF6B6B?style=for-the-badge)](https://github.com/chetanck03/Somnia)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-FF6B6B?style=for-the-badge)](https://somnia-walletx.vercel.app/)
+[![AI Powered](https://img.shields.io/badge/AI-Powered-00D4AA?style=for-the-badge)](https://github.com/chetanck03/Somnia)
+[![QR Integration](https://img.shields.io/badge/QR-Integration-FF6B35?style=for-the-badge)](https://github.com/chetanck03/Somnia)
 
 ![Aleph-WalletX Hero](./public/images/hero.png)
 
@@ -73,7 +73,7 @@ Our **WalletX Escrow Contract** is deployed and verified on the Somnia Testnet:
 
 | **Network** | **Contract Address** |
 |-------------|---------------------|
-| ** Somnia Testnet** | `0x60Dfc970af7409EEEB7520C5DF2dfD7E89734790` | 
+| **Somnia Testnet** | `0x60Dfc970af7409EEEB7520C5DF2dfD7E89734790` | 
 
 
 ### 📝 **Core Smart Contract Functions**
@@ -112,7 +112,7 @@ contract WalletX {
 | **🌐 Network Support** | **🤖 AI Assistant** | **📖 About Platform** |
 |---|---|---|
 | ![Networks](./public/images/suported-network.png) | ![AI Assistant](./public/images/ai-assitant.png) | ![About](./public/images/about.png) |
-| *Somnia Testnet supported* | *Gemini AI integration* | *Complete platform info* |
+| *Somnia Testnet supported* | *AI integration* | *Complete platform info* |
 
 ### **Unique Value Propositions**
 
@@ -196,8 +196,8 @@ History Tracking      // Transaction monitoring
 ### 💻 **Local Development**
 ```bash
 # Clone the revolutionary platform
-git clone https://github.com/chetanck03/HackOdisha5.0
-cd HackOdisha5.0
+git clone https://github.com/chetanck03/Somnia
+cd Somnia
 
 # Install dependencies
 npm install
@@ -222,7 +222,7 @@ npm run build
 ```
 
 ### 🌐 **Live Demo**
-**⚡ Experience it now**: [walletx.software](https://walletx.software)
+**⚡ Experience it now**: [somnia-walletx](https://somnia-walletx.vercel.app/)
 
 ### 🎯 **Quick Feature Test**
 1. **🔄 Create Temporary Wallet**: Experience disposable wallet magic
@@ -240,8 +240,8 @@ npm run build
 - **📱 Mobile Complete**: QR scanning + responsive design for mobile-first users
 
 ### 📋 **Complete Submission Package**
-- ✅ **Live Demo**: [walletx.software](https://walletx.software)
-- ✅ **GitHub Repo**: [HackOdisha5.0](https://github.com/chetanck03/HackOdisha5.0) (100% Open Source)
+- ✅ **Live Demo**: [somnia-walletx](https://somnia-walletx.vercel.app/)
+- ✅ **GitHub Repo**: [Somnia](https://github.com/chetanck03/Somnia) (100% Open Source)
 - ✅ **Smart Contract**: Deployed on Somnia Testnet
 - ✅ **Mobile Responsive**: Perfect mobile experience
 - ✅ **AI Integration**: Gemini AI assistant
@@ -255,7 +255,7 @@ npm run build
 - **🏅 Innovation**: World's first temporary wallet technology
 
 ### 📄 **Technical Documentation**
-- **📊 Whitepaper**: [View Complete Technical Analysis](https://www.walletx.software/whitepaper.pdf)
+- **📊 Whitepaper**: [View Complete Technical Analysis](https://somnia-walletx.vercel.app/whitepaper.pdf)
 - **🔧 Architecture**: Detailed system design and implementation
 - **🛡️ Security**: Smart contract audit and security measures
 - **📈 Roadmap**: Future development and scaling plans

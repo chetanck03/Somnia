@@ -35,7 +35,7 @@ function LandingPage() {
   const benefits = [
     "Multi-wallet generation (BIP39/BIP44) — temporary or permanent wallets",
     "Import/export wallets using seed phrase or private key (cross-platform compatible)",
-    "Multi-chain integration: Base Sepolia, Polygon Amoy, Ethereum Sepolia, BNB Smart Chain Testnet, ZetaChain, Citrea , Lisk and Somnia",
+    "Somina network integration with full blockchain functionality",
     "Smart contract escrow system with refund & claim flows for secure transactions",
     "QR code pay/scan/download + auto-detect scanner flow for easy address sharing",
     "Integrated faucet per network + transaction history with blockchain explorer links",
@@ -112,7 +112,7 @@ function LandingPage() {
               </h2>
 
               <p className="mx-auto max-w-3xl text-xs sm:text-lg text-gray-300 leading-relaxed px-4">
-                Easily create or import Hierarchical Deterministic (HD) wallets, manage multiple addresses from a single seed phrase, create secure escrow agreements, and interact with <span className='text-purple-400 font-semibold'>8 major blockchain networks</span> — all within a secure, non-custodial platform. Featuring <span className="text-purple-400 font-semibold">multi-chain support, QR code integration, smart contract escrow, and AI-powered customer assistance</span>.
+                Easily create or import Hierarchical Deterministic (HD) wallets, manage multiple addresses from a single seed phrase, create secure escrow agreements, and interact with <span className='text-purple-400 font-semibold'>Somina network</span> — all within a secure, non-custodial platform. Featuring <span className="text-purple-400 font-semibold">Somina blockchain support, QR code integration, smart contract escrow, and AI-powered customer assistance</span>.
               </p>
 
               <div className="flex flex-col sm:flex-row items-center justify-center  sm:gap-4 pt-4">
@@ -190,7 +190,7 @@ function LandingPage() {
                 </span>
               </h2>
               <p className="text-lg text-gray-300 mb-8 leading-relaxed">
-                Build and manage HD wallets with BIP39/BIP44 compliance across 8 blockchain networks including <span className='text-purple-500'>Base, Polygon, Ethereum, BNB Smart Chain, ZetaChain, Somnia, Citrea & Lisk</span>.
+                Build and manage HD wallets with BIP39/BIP44 compliance on <span className='text-purple-500'>Somina network</span>.
                 Features include QR code scanning, smart contract escrow, faucet integration, manual gas controls, and AI-powered customer support - all in one comprehensive platform.
               </p>
 
@@ -315,7 +315,7 @@ function LandingPage() {
                 {/* Bottom text */}
                 <div className="px-8 pb-6">
                   <p className="text-center text-gray-400 text-sm">
-                    Currently supporting 8 blockchain networks: Base, Polygon, Ethereum, BNB Smart Chain, ZetaChain, Somnia, Citrea, and Lisk - with more networks coming soon
+                    Currently supporting Somina network - the future of blockchain technology
                   </p>
                 </div>
               </div>

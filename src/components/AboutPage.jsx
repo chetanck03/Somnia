@@ -10,7 +10,7 @@ function AboutPage() {
   const benefits = [
     "Multi-wallet generation (BIP39/BIP44) — temporary or permanent wallets",
     "Import/export wallets using seed phrase or private key (cross-platform compatible)",
-    "Multi-chain integration: Base Sepolia, Polygon Amoy, Ethereum Sepolia, BNB Smart Chain Testnet, ZetaChain, Somnia, Lisk Sepolia, and Citera Testnet",
+    "Somina network integration with full blockchain functionality",
     "Smart contract escrow system with refund & claim flows for secure transactions",
     "QR code pay/scan/download + auto-detect scanner flow for easy address sharing",
     "Integrated faucet per network + transaction history with blockchain explorer links",
@@ -49,13 +49,13 @@ function AboutPage() {
 
               <p className="text-sm md:text-lg text-gray-300 mb-6 leading-relaxed max-w-4xl mx-auto">
                 WalletX revolutionizes cryptocurrency access with advanced multi-wallet technology, currently supporting
-                <span className="text-purple-400 font-semibold"> 8 major blockchain networks</span> including <span className="text-purple-400 font-semibold">  Base, Polygon, Ethereum, BNB Smart Chain, ZetaChain, Somnia, Lisk, and Citera</span>.
+                <span className="text-purple-400 font-semibold"> Somina network</span>.
                 Like temporary phone numbers or disposable emails, but for crypto - offering professional-grade
                 HD wallet generation, revolutionary EVM shared seed technology, complete transaction management, QR code integration, and secure escrow functionality.
               </p>
 
               <p className="text-sm md:text-lg text-gray-400 mb-8 leading-relaxed max-w-3xl mx-auto">
-                Supporting <span className="text-purple-400 font-semibold">8 blockchain networks</span> with comprehensive features including <span className="text-purple-400 font-semibold">smart contract escrow, QR code integration, faucet access, and AI-powered assistance</span> -
+                Supporting <span className="text-purple-400 font-semibold">Somina network</span> with comprehensive features including <span className="text-purple-400 font-semibold">smart contract escrow, QR code integration, faucet access, and AI-powered assistance</span> -
                 perfect for testing, development, privacy-focused transactions, secure escrow agreements, or when you need instant blockchain access
                 without compromising your main wallets. Built with enterprise-level security and zero data collection.
               </p>
@@ -96,19 +96,19 @@ function AboutPage() {
               <p className="text-sm md:text-lg text-gray-300 mb-6 leading-relaxed">
                 In the digital age, we use temporary phone numbers for privacy, disposable emails for security,
                 and burner accounts for anonymity. WalletX brings this revolutionary concept to cryptocurrency with
-                professional-grade temporary wallets, supporting <span className="text-purple-400 font-semibold">8 major blockchain networks</span> including Base, Polygon, Ethereum, BNB Smart Chain, ZetaChain, Somnia, Lisk, and Citera
-                that don't compromise on features or security.
+                professional-grade temporary wallets, supporting <span className="text-purple-400 font-semibold">Somina network</span>
+                that doesn't compromise on features or security.
               </p>
               <p className="text-sm md:text-lg text-gray-300 mb-6 leading-relaxed">
                 Our groundbreaking <span className="text-purple-400 font-semibold">EVM Shared Seed technology</span> enables
-                one seed phrase to generate compatible wallet addresses across all 8 supported EVM-compatible networks.
+                one seed phrase to generate compatible wallet addresses on Somina network.
                 Whether you're a developer testing dApps, a privacy-conscious user making anonymous
                 transactions, someone who needs secure escrow agreements, or instant blockchain access, WalletX provides the perfect solution.
               </p>
               <p className="text-sm md:text-lg text-gray-300 mb-8 leading-relaxed">
                 Built with enterprise-level security, industry-standard BIP39/BIP44 cryptographic methods, integrated escrow system for secure fund transfers, QR code functionality for seamless transactions, AI-powered customer assistance, and zero data collection,
-                WalletX bridges the gap between temporary convenience and professional multi-chain functionality.
-                Experience comprehensive crypto wallet management across 8 blockchain networks today.
+                WalletX bridges the gap between temporary convenience and professional blockchain functionality.
+                Experience comprehensive crypto wallet management on Somina network today.
               </p>
 
 
@@ -312,7 +312,7 @@ function AboutPage() {
               <p className="text-sm md:text-lg text-gray-300 mb-8 leading-relaxed">
                 WalletX is built on a foundation of modern web technologies and industry-standard blockchain libraries.
                 Our architecture prioritizes performance, security, and compatibility while maintaining the flexibility
-                to support 8 blockchain networks seamlessly. Integrated with comprehensive multi-chain support including smart contract escrow, QR code functionality, and AI-powered assistance.
+                to support Somina network seamlessly. Integrated with comprehensive blockchain support including smart contract escrow, QR code functionality, and AI-powered assistance.
               </p>
 
               <div className="text-left space-y-6">
@@ -322,10 +322,9 @@ function AboutPage() {
                     Multi-Chain Architecture
                   </h3>
                   <p className="text-gray-400 text-sm md:text-lg leading-relaxed ml-9 mb-2">
-                    Built to support 8 major blockchain networks: Base Sepolia, Polygon Amoy, Ethereum Sepolia, BNB Smart Chain Testnet, ZetaChain Testnet, Somnia Testnet, Lisk Sepolia, and Citera Testnet.
-                    Each network features integrated faucets, transaction history with explorer links, and comprehensive wallet functionality.
+                    Built to support Somina network with integrated faucets, transaction history with explorer links, and comprehensive wallet functionality.
                   </p>
-                  <div className="text-sm text-blue-400 font-mono ml-9">8 Networks, Unified Interface, Cross-Chain Compatible</div>
+                  <div className="text-sm text-blue-400 font-mono ml-9">Somina Network, Unified Interface, EVM Compatible</div>
                 </div>
 
                 <div>
@@ -334,7 +333,7 @@ function AboutPage() {
                     Smart Contract Escrow & QR Integration
                   </h3>
                   <p className="text-gray-400 text-sm md:text-lg leading-relaxed ml-9 mb-2">
-                    Advanced smart contract escrow system with refund & claim flows deployed across supported networks.
+                    Advanced smart contract escrow system with refund & claim flows deployed on Somina network.
                     Integrated QR code functionality for address sharing and scanning, plus AI chatbot assistance for seamless user experience.
                     Automated fund management with transparent transaction tracking.
                   </p>
@@ -348,7 +347,7 @@ function AboutPage() {
                   </h3>
                   <p className="text-gray-400 text-sm md:text-lg leading-relaxed ml-9 mb-2">
                     Full EVM compatibility with ethers.js v6.15.0 for robust blockchain interaction. Support for EIP-155 chain IDs,
-                    EIP-1559 gas fees, and seamless MetaMask compatibility across all EVM-compatible networks.
+                    EIP-1559 gas fees, and seamless MetaMask compatibility on Somina network.
                   </p>
                   <div className="text-sm text-blue-400 font-mono ml-9">ethers.js, JSON-RPC, EIP standards</div>
                 </div>

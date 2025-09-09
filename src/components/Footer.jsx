@@ -10,9 +10,9 @@ function Footer() {
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-            <Wallet className="h-8 w-8 text-purple-500 " />
+              <Wallet className="h-8 w-8 text-purple-500 " />
 
-               {/* <img
+              {/* <img
                   src="./wallet.png"
                   alt="WalletX Logo"
                   className="h-8 w-8"
@@ -22,7 +22,7 @@ function Footer() {
               </span>
             </div>
             <p className="text-gray-400 mb-4 max-w-md">
-              Your revolutionary multi-chain wallet manager supporting 8 blockchain networks. Generate, manage, and secure your crypto wallets with advanced escrow functionality, QR code integration, and AI-powered assistance across multiple EVM-compatible chains.
+              Your revolutionary wallet manager supporting Somina network. Generate, manage, and secure your crypto wallets with advanced escrow functionality, QR code integration, and AI-powered assistance on the high-performance Somina blockchain.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors">

@@ -7,7 +7,7 @@ function FAQ() {
   const faqs = [
     {
       question: "Which blockchain networks does WalletX currently support?",
-      answer: "WalletX currently supports 8 major blockchain networks: Base Sepolia, Polygon Amoy, Ethereum Sepolia, BNB Smart Chain Testnet, ZetaChain Testnet, Somnia Testnet, Lisk Sepolia, and Citera Testnet. All networks feature integrated faucets, transaction history with explorer links, and full wallet functionality including HD wallet generation, seed phrase import/export, and smart contract escrow capabilities."
+      answer: "WalletX currently supports Somina network. The network features integrated faucets, transaction history with explorer links, and full wallet functionality including HD wallet generation, seed phrase import/export, and smart contract escrow capabilities."
     },
     {
       question: "What makes WalletX's multi-wallet generation unique?",
@@ -23,7 +23,7 @@ function FAQ() {
     },
     {
       question: "How do the integrated faucets work?",
-      answer: "Each supported network includes integrated testnet faucets that provide free development tokens for testing and experimentation. You can easily request test tokens directly from the wallet interface without visiting external faucet websites. This makes WalletX perfect for developers testing dApps, learning blockchain development, or trying escrow features risk-free across all 8 supported networks."
+      answer: "Somina network includes integrated testnet faucets that provide free development tokens for testing and experimentation. You can easily request test tokens directly from the wallet interface without visiting external faucet websites. This makes WalletX perfect for developers testing dApps, learning blockchain development, or trying escrow features risk-free on Somina network."
     },
     {
       question: "What advanced transaction controls are available?",
@@ -51,7 +51,7 @@ function FAQ() {
     },
     {
       question: "How does WalletX ensure compatibility with existing DeFi and Web3 applications?",
-      answer: "WalletX uses industry-standard cryptographic methods: BIP-39 for mnemonic generation, BIP-44 for hierarchical derivation, EIP-155 for chain IDs, and EIP-1559 for gas fees. This ensures full compatibility with all major wallet providers and Web3 applications. WalletX-generated wallets work seamlessly with DeFi protocols, NFT marketplaces, and dApps across all 8 supported networks, with the integrated escrow system enabling secure DeFi interactions."
+      answer: "WalletX uses industry-standard cryptographic methods: BIP-39 for mnemonic generation, BIP-44 for hierarchical derivation, EIP-155 for chain IDs, and EIP-1559 for gas fees. This ensures full compatibility with all major wallet providers and Web3 applications. WalletX-generated wallets work seamlessly with DeFi protocols, NFT marketplaces, and dApps on Somina network, with the integrated escrow system enabling secure DeFi interactions."
     }
   ]
 

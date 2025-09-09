@@ -77,7 +77,7 @@ function Dashboard() {
           <div className="text-center mb-16">
             <h2 className="font-geist text-2xl sm:text-3xl md:text-4xl bg-clip-text text-transparent bg-[linear-gradient(180deg,_#FFF_0%,_rgba(255,_255,_255,_0.00)_202.08%)]">
               Somnia Network{' '}
-              <span className="bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
                 Wallet Platform
               </span>
             </h2>
@@ -86,7 +86,7 @@ function Dashboard() {
             </p>
 
             {/* EVM Info */}
-            <div className="max-w-4xl mt-8 mx-auto bg-gradient-to-r from-purple-600/10 to-purple-600/10 border border-purple-500/20 rounded-xl p-4 sm:p-6 mb-8">
+            {/* <div className="max-w-4xl mt-8 mx-auto bg-gradient-to-r from-purple-600/10 to-purple-600/10 border border-purple-500/20 rounded-xl p-4 sm:p-6 mb-8">
               <div className="flex flex-col sm:flex-row items-start gap-3">
                 <div className="flex items-center gap-2 text-purple-400 mt-1 flex-shrink-0">
                   <Link className="h-4 w-4 sm:h-5 sm:w-5" />
@@ -94,12 +94,12 @@ function Dashboard() {
                 </div>
                 <div className="flex-1">
                   <p className="text-gray-300 text-sm sm:text-base leading-relaxed">
-                    WalletX now supports <strong className="text-white">the Somnia Testnet</strong>. 
+                    WalletX now supports <strong className="text-white">the Somnia Testnet</strong>.
                     <strong className="text-white"> Create temporary or permanent wallets and interact with the Somnia network</strong> with the same interface and functionality.
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
 
           <div className="grid grid-cols-1 gap-6 max-w-2xl mx-auto">
@@ -120,37 +120,52 @@ function Dashboard() {
                   </div>
 
                   {/* Central Logo Display */}
-                
-                  
-                  <h3 className="text-2xl font-bold text-white mb-2">{evmBlockchain.name}</h3>
-                  <p className="text-gray-400 mb-6 flex-grow">{evmBlockchain.description}</p>
-                  
-                  {/* Enhanced Network Grid - Responsive */}
-                  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-3 mb-8">
-                    {evmBlockchain.networks.map((network, index) => (
-                      <div key={index} className="group relative">
-                        <div className="absolute -inset-0.5 bg-gradient-to-r from-purple-600/20 to-blue-600/20 rounded-lg blur opacity-0 group-hover:opacity-40 transition-opacity duration-300" />
-                        <div className="relative bg-neutral-800/50 backdrop-blur-sm border border-neutral-700/50 rounded-lg p-3 hover:border-neutral-600/50 transition-all duration-200 ">
-                          <div className="flex items-center space-x-3 ">
-                            <div className="flex-shrink-0 ">
-                              <div className="relative w-10 h-10 rounded-full p-1.5 flex items-center justify-center">
-                                <img src={network.logo} alt={network.name} className="w-full h-full object-contain" />
-                              </div>
-                            </div>
-                            <div className="flex-1 min-w-0">
-                              <div className="flex items-center space-x-1">
-                                <CheckCircle className="h-3 w-3 text-green-500 flex-shrink-0" />
-                                <span className="text-base text-gray-300 font-medium truncate">
-                                  {network.name.replace(' Testnet', '')}
-                                </span>
-                              </div>
-                            </div>
-                          </div>
+                  <div className="flex justify-center mb-6">
+                    <div className="relative inline-block overflow-hidden rounded-full p-[2px]">
+                      <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
+                      <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-neutral-950 backdrop-blur-3xl">
+                        <div className="w-16 h-16 rounded-full border border-purple-500/30 flex items-center justify-center">
+                          <img src={somniaLogo} alt="Somnia Network" className="w-10 h-10 object-contain" />
                         </div>
                       </div>
-                    ))}
+                    </div>
                   </div>
-                  
+
+                  <h3 className="text-2xl font-bold text-white mb-2">{evmBlockchain.name}</h3>
+                  <p className="text-gray-400 mb-4 flex-grow">{evmBlockchain.description}</p>
+
+                  {/* Somnia Network Features */}
+                  <div className=" border border-purple-500/20 rounded-lg p-4 mb-6">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
+                      <div className="flex items-center gap-2">
+                        <CheckCircle className="h-4 w-4 text-green-400 flex-shrink-0" />
+                        <span className="text-gray-300">High-Performance Blockchain</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <CheckCircle className="h-4 w-4 text-green-400 flex-shrink-0" />
+                        <span className="text-gray-300">EVM Compatible</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <CheckCircle className="h-4 w-4 text-green-400 flex-shrink-0" />
+                        <span className="text-gray-300">Low Transaction Fees</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <CheckCircle className="h-4 w-4 text-green-400 flex-shrink-0" />
+                        <span className="text-gray-300">Fast Finality</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <CheckCircle className="h-4 w-4 text-green-400 flex-shrink-0" />
+                        <span className="text-gray-300">Secure Infrastructure</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <CheckCircle className="h-4 w-4 text-green-400 flex-shrink-0" />
+                        <span className="text-gray-300">Developer Friendly</span>
+                      </div>
+                    </div>
+                  </div>
+
+                 
+
                   <div className="mt-auto">
                     <span className="relative inline-block overflow-hidden rounded-full p-[1.5px] w-full cursor-pointer">
                       <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />

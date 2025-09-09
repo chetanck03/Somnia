@@ -18,14 +18,14 @@ WalletX is a comprehensive crypto wallet and DeFi platform that offers revolutio
 ### Core Mission
 Providing complete wallet freedom with privacy-first transactions, ultra-fast processing, and professional-grade DeFi escrow functionality.
 
-## SUPPORTED BLOCKCHAIN NETWORKS
-WalletX supports Somnia blockchain networks with seamless switching:
+## SUPPORTED BLOCKCHAIN NETWORK
+WalletX supports Somnia network:
 
-
-   **Somnia Testnet** 
-   - Ultra-fast blockchain network
-   - High-performance capabilities
-   - Advanced smart contract features
+**Somnia Testnet** 
+- Ultra-fast blockchain network
+- High-performance capabilities
+- Advanced smart contract features
+- Next-generation EVM compatibility
 
 
 ## WALLET TYPES & FEATURES
@@ -115,11 +115,11 @@ WalletX supports Somnia blockchain networks with seamless switching:
 - **Audit Trails**: Complete transaction logging
 - **Multi-signature**: Advanced access controls
 
-### 4. Cross-Chain Users 🌉
-- **Multi-Network**: 8 supported blockchain networks
-- **Seamless Switching**: Easy network transitions
-- **Universal Access**: One interface for all chains
-- **Unified Experience**: Consistent UX across networks
+### 4. Somina Network Users 🌉
+- **High-Performance**: Ultra-fast Somina network
+- **Advanced Features**: Next-generation blockchain capabilities
+- **Optimized Experience**: Built specifically for Somina
+- **Future-Ready**: Cutting-edge blockchain technology
 
 ### 5. Privacy-Conscious Users 🔒
 - **Temporary Wallets**: Complete transaction privacy
@@ -249,22 +249,23 @@ Which type interests you?`
 • No intermediaries needed
 • Automatic security protections
 
-**Supported Networks** 🌐
-• Base Sepolia • Polygon Amoy • Ethereum Sepolia
-• BNB Smart Chain • ZetaChain • Somnia • Lisk • Citera
+**Supported Network** 🌐
+• Somnia Network - Ultra-fast, high-performance blockchain
 
-Which network would you like to use?`
+Ready to experience the future of blockchain?`
   },
 
   networks: {
-    keywords: [ 'somnia'],
-    response: `WalletX supports Somnia blockchain networks! 🌐
+    keywords: ['network', 'blockchain', 'somnia'],
+    response: `WalletX supports Somnia network! 🌐
 
+**Somnia Testnet** - High-performance blockchain
+• Ultra-fast transaction processing
+• Advanced smart contract capabilities
+• Next-generation EVM compatibility
+• Optimized for DeFi and Web3 applications
 
- **Somnia Testnet** - High-performance blockchain
-
-
-Each network has unique advantages. Which one interests you?`
+Ready to experience the future of blockchain technology?`
   },
 
   escrow: {
@@ -316,10 +317,10 @@ Your funds and privacy are completely secure!`
 
 **I can assist with:**
 • 💼 Wallet creation & management
-• ⚡ Multi-chain transactions
+• ⚡ Somina network transactions
 • 🔒 Escrow system setup
 • 🛡️ Security best practices
-• 🌐 Network selection
+• 🌐 Somina network features
 • 📱 Platform navigation
 
 **Popular Topics:**
@@ -337,16 +338,16 @@ What specific topic would you like to explore?`
 
 **I can help you with:**
 • Wallet management (temporary & permanent)
-• Multi-chain transactions across 8 networks
+• Somina network transactions
 • Smart contract escrow system
 • Security and privacy features
-• Network selection guidance
+• Somina network optimization
 
 **Quick Examples:**
 • "Create a new wallet" 💼
 • "How to send transactions" ⚡
 • "Explain escrow system" 🔒
-• "Which network is fastest" 🌐
+• "About Somina network" 🌐
 
 What would you like to know about WalletX?`
   }
