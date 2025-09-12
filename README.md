@@ -2,7 +2,7 @@
 ## World's First Temporary Wallet Technology + Revolutionary Somnia Escrow Platform + WalletX AI Assistance & QR Integration
 
 
-> **🎥 Video Demo**: [youtube.com/walletx](https://youtu.be/)  
+> **🎥 Video Demo**: [youtube.com/walletx](https://youtu.be/rPhVgsLBm7o)  
 > **⚡ Live Demo**: [somnia-walletx](https://somnia-walletx.vercel.app/)  
 > **🤝 Trustless** | **🌐 Somnia Network** | **📱 Production Ready** | **🤖 AI-Powered**
 
